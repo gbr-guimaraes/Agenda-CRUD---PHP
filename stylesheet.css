@@ -1,0 +1,151 @@
+.topnav {
+    overflow: hidden;
+    background-color: #222;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    display: flex;
+}
+
+.topnav h1{
+    padding-left: 32px;
+    padding-top: 16px;
+    size: 18px; 
+    color: ivory;
+}
+
+.topnav p{
+    padding-right: 32px;
+    padding-top: 4px;
+    font-size: 14px; 
+    color: ivory;
+    position: absolute;
+    right: 0px;
+}
+
+.content {
+    background-color: #ddd;
+    padding: 10px;
+    height: auto;
+}
+
+
+.content table{
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.content table td,th{
+    border: 1px solid #ddd;    
+}
+
+.content table th{    
+    padding: 12px;
+    text-align: left;
+    background-color: #222;
+    color: ivory;
+}
+
+.content table td{
+    padding: 8px;
+    padding-left: 12px;
+}
+
+.content table tr:nth-child(even){background-color: #f2f2f2;}
+
+.content .buttons{
+    text-align: center;
+}
+
+.footer {
+    background-color: #f1f1f1;
+    padding: 10px;
+  }
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: #f1f1f1;
+}
+
+a:link, a:visited {
+    color: white;
+    padding: 8px 8px;
+    text-align: center;
+    text-decoration: none;
+    display:inline-block;
+    border-radius: 8px;
+    font-weight: bold;
+    font-size: 14px;
+    background-color: #222;
+
+}
+
+.content .editar{
+    color: black;
+    background-color: #fde910;
+    margin-right: 4px;
+}
+
+.content .excluir{
+    color: black;
+    background-color: #f44336;
+    margin-left: 4px;
+}
+
+.footer .add{
+    font-size: 20px;
+    color: white;
+}
+
+/*---------------------------------------------------------------------------------------------------------------------------------*/
+
+.form-group{
+    padding: 12px;
+    display:grid;
+}
+
+.form-group input{
+    margin-top: 2px;
+    width: 30%;
+    padding: 3px 5px;
+}
+
+.form-group input[type=date]{
+    width: fit-content;
+}
+
+.form-group input[type=text]:focus{
+    border: 3px solid #555;
+}
+
+.btnform{
+    text-align:left;
+    margin-left: 19%;
+}
+
+.btnconfirmar{
+    color: white;
+    padding: 8px 8px;
+    text-align: center;
+    text-decoration: none;
+    display:inline-block;
+    border-radius: 8px;
+    font-weight: bold;
+    font-size: 14px;
+    background-color: #555;
+    border: none;
+    cursor: pointer;
+}
+
+/*----------------------------------------------------------------------------------------------------------------------------*/
+
+.action {
+    font-size: 20px;
+    text-align: center;
+    padding: 12px;
+}
+
+.action a{
+    margin-top: 16px;
+    font-size: 20px;
+    width: 15%;
+}
